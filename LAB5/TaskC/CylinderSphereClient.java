@@ -48,13 +48,13 @@ public class CylinderSphereClient
 			Sphere sphere4 = null;
 			if (printObject instanceof Cylinder)
 			{
-				printObject1 = (Cylinder)printObject;
-				System.out.println(printObject1.toString());
+				cylinder4 = (Cylinder)printObject;
+				System.out.println(cylinder4.toString());
 			}
 			else if (printObject instanceof Sphere)
 			{
-				printObject1 = (Sphere)printObject;
-				System.out.println(printObject1.toString());
+				sphere4 = (Sphere)printObject;
+				System.out.println(sphere4.toString());
 			}
 		}
 		System.out.println("-----------------------------------------------------------------------------------------------------------------------------------");
